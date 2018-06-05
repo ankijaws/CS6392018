@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="intro">Hello Ankita Jawale\nAnd\nWelcome in CS 639 Summer 2018</string>
+</resources>
