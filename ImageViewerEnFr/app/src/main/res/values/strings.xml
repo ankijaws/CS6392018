@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ImageViewerEnFr</string>
+    <string name="action_settings">Settings</string>
+    <string name="text">These are different cities of USA</string>
+</resources>

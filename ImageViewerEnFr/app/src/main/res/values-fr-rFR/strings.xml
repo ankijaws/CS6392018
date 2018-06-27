@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ImageViewerEnFr</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="text">Ce sont des villes différentes des Etats-Unis</string>
+</resources>
