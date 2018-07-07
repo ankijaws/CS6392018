@@ -76,13 +76,13 @@ public class MainActivityFragment extends Fragment implements StatesAdapter.List
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_main, container, false);
-        RecyclerView stateListView = (RecyclerView) rootView.findViewById(R.id.statesRV);
+        RecyclerView stateRV = (RecyclerView) rootView.findViewById(R.id.statesRV);
 
         StatesAdapter statesAdapter = new StatesAdapter(listOfStates,this);
         LinearLayoutManager manager = new LinearLayoutManager(getActivity().getBaseContext(), LinearLayoutManager.VERTICAL, false);
 
-        stateListView.setLayoutManager(manager);
-        stateListView.setAdapter(statesAdapter);
+        stateRV.setLayoutManager(manager);
+        stateRV.setAdapter(statesAdapter);
         return rootView;
     }
 
